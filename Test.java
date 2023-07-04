@@ -33,7 +33,7 @@ public class Test {
 
         if (result >= 60);
         System.out.println("Ortalamanız:" + result+ "Passed");
-         if (result < 60);
+         if (result < 60);//if or delete all this and write else
         System.out.println("Ortalamanız:" + result+"Failed");
 
 
