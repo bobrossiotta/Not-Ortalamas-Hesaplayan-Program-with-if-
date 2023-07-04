@@ -6,10 +6,10 @@ public class Test {
         /**
          * by bobrossiotta
          */
-    // değişkenler
+        // değişkenler
         int mat,fizik,kimya,tr,tarih,music;
         Scanner bob = new Scanner(System.in);
-    // değerler
+        // değerler
         System.out.print("Matematik:");
         mat = bob.nextInt();
 
@@ -31,10 +31,10 @@ public class Test {
         int total = (mat+fizik+kimya+tr+tarih+music);
         double result = total/6.0 ;
 
-        if (result >= 60);
-        System.out.println("Ortalamanız:" + result+ "Passed");
-         if (result < 60);//if or delete all this and write else
-        System.out.println("Ortalamanız:" + result+"Failed");
+        if (result >= 55) {
+            System.out.println("Ortalamanız:" + result + "Passed");
+        } else{
+            System.out.println("Ortalamanız:" + result+"Failed"}
 
 
     } }
